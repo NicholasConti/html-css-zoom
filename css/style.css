@@ -6,7 +6,7 @@
 }
 
 /* --------------------------------------------- */
-
+/*HEADER*/
 header{
     height: 40px;
     background-color: black;
@@ -26,12 +26,40 @@ header{
     padding: 5px;
     border-radius: 5px;
 }
+/* ------------------------------------------------------------- */
 
-
-
+/*MAIN*/
 main{
+    padding-top: 40px;
     height: calc(100vh - 40px - 70px);
+    background-color: black;
+    overflow: auto;
+    align-items: center;
+
 }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+   
+}
+
+.box{
+    width: 240px;
+    height: 135px;
+    margin-bottom: 15px;
+    background-color: red;
+}
+
+
+
+
+/* ------------------------------------------------------------- */
+
 footer{
     height: 70px;
     background-color: #222222;
