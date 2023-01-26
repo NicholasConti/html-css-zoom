@@ -5,3 +5,16 @@
 }
 
 /* --------------------------------------------- */
+
+header{
+    height: 40px;
+    background-color: black;
+}
+
+main{
+    height: calc(100vh - 40px - 70px);
+}
+footer{
+    height: 70px;
+    background-color: #222222;
+}
