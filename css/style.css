@@ -71,8 +71,53 @@ main{
 
 
 /* ------------------------------------------------------------- */
+/*FOOTER*/
 
 footer{
     height: 70px;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 10px;
 }
+
+footer i{
+    font-size: 25px;
+}
+
+
+footer div div i.fa-solid.fa-angle-up{
+    font-size: 12px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.buttons > div{
+    margin: 0px 15px;
+
+}
+.txticon{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.quit{
+    height: 100%;
+    color: red;
+    background-color: #4a4a4a;
+    padding: 0px 20px;
+    line-height: 70px;
+}
+
+i.fa-solid.fa-share-from-square{
+    color: #4bc800;
+}
+
+
+
